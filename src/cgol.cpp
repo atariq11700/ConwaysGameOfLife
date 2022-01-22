@@ -131,21 +131,6 @@ ConwaysGameOfLife::simulation() {
     }
 }
 
-void
-ConwaysGameOfLife::checkResize(){
-    CONSOLE_SCREEN_BUFFER_INFO csbi;
-    GetConsoleScreenBufferInfo(m_hConOut, &csbi);
-
-    if (csbi.dwSize.X != m_oldBufferSize.X || csbi.dwSize.Y != m_oldBufferSize.Y) {
-        handleResize();
-    }
-}
-
-void
-ConwaysGameOfLife::handleResize(){
-
-}
-
 void 
 ConwaysGameOfLife::printCells() {
     

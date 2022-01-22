@@ -54,8 +54,6 @@ private:
     void printCells();
     void update();
     void simulation();
-    void checkResize();
-    void handleResize();
     bool exitSignal();
     bool checkBound(int position, Axis axis, Direction direction);
 
