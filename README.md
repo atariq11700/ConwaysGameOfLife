@@ -33,3 +33,11 @@ New patterns can be created by deriving the `Pattern` class in `pattern.h` and i
 
 ## Project Information
  This project runs the rendering and updating of the game in a seperate thread. The example `main` function includes some keyboard controls for the game. Press `left arrow` to toggle start/pause the game. Press `right arrow` to toggle an infomation bar that displays the current generation and thread sleep delay in the top left. Use `up arrow` and `down arrow` to change the value of the thread sleep delay. This in its current state will only run on windows and only when ran inside a windows cmd terminal. There are two ways to achieve this. Double click the binary or open a new terminal, cd to the directory, then run the binary. Running this any other ways will not properly display because it uses windows screen buffers to update and print without scrolling. 
+ 
+ 
+ ## Learn More
+ You can learn more about Conway's Game of Life and cellular automation here  
+ [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)  
+ [LifeWiki](https://www.conwaylife.com/wiki/Main_Page)    
+ [Playable In Browser Version 1](https://playgameoflife.com/)  
+ [Playable In Browser Version 2](http://www.cuug.ab.ca/dewara/life/life.html)  
